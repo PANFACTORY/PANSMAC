@@ -13,8 +13,8 @@
 using namespace std;
 
 int main() {
-    int nx = 50, ny = 50, nk = 1000000;
-    double tmax = 100.0, dt = 0.01, dx = 1.0/(double)nx, dy = 1.0/(double)ny, re = 1000.0, eps = 1e-8, omega = 2.0/(1.0 + sin(M_PI/(double)nx));
+    int nx = 100, ny = 100, nk = 1000000;
+    double tmax = 100.0, dt = 0.001, dx = 1.0/(double)nx, dy = 1.0/(double)ny, re = 1000.0, eps = 1e-8, omega = 2.0/(1.0 + sin(M_PI/(double)nx));
     int tstep = (int)(tmax/dt);
 
     //----------インデックス取得関数----------
