@@ -1,5 +1,5 @@
 //*****************************************************************************
-//	Name		:	test/testmac.cpp
+//	Name		:	test/testhsmac.cpp
 //	Author		:	Tanabe Yuta
 //	Date		:	2021/03/02
 //	Copyright	:	(C)2021 TanabeYuta
